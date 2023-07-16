@@ -1,0 +1,16 @@
+title: "奥深い2次元コードの仕組み"
+summary: "身近あるQRコードやアメリカで使われているデータマトリックスなどの2次元コードと呼ばれるモノの仕組みを覗いてみましょう👀"
+topics: ["2次元コード", "qrコード"]
+published: false
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - overview
+  - qr_history
+  - qr_spec
+  - data_matrix
+  - pdf417
+  - vericode
+  - maxicode
+  - cpcode
+  - aztec_code
