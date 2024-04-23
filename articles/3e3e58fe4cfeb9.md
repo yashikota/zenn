@@ -14,7 +14,7 @@ CMake、Ninja、NASMの3つが必要なのでインストールします。
 winget install NASM.NASM Kitware.CMake
 ```
 
-Ninjaは[Github](https://github.com/ninja-build/ninja/releases/tag/v1.11.1)から`ninja-win.zip`を選択してダウンロード後展開し、適当なフォルダに`ninja.exe`を置いてパスを通します。[^1]  
+Ninjaは[GitHub](https://github.com/ninja-build/ninja/releases/tag/v1.11.1)から`ninja-win.zip`を選択してダウンロード後展開し、適当なフォルダに`ninja.exe`を置いてパスを通します。[^1]  
 
 [^1]: 一応`winget install Ninja-build.Ninja`が使えるはずですが、筆者の環境では失敗したので直接入れる方法をとっています。  
 
@@ -28,7 +28,7 @@ ninja --version
 
 ## ビルド
 
-基本は[GithubのREADME](https://github.com/AOMediaCodec/libavif?tab=readme-ov-file#build-everything-from-scratch)通りにコマンドを実行すればOKです。  
+基本は[GitHubのREADME](https://github.com/AOMediaCodec/libavif?tab=readme-ov-file#build-everything-from-scratch)通りにコマンドを実行すればOKです。  
 ですが執筆時点では`.\ext\libwebp\build\libsharpyuv.lib`として生成されるべきファイルが`.\ext\libwebp\build\sharpyuv.lib`として生成されてしまいその後のCMakeに失敗するので、renコマンドで名前を変更しています。  
 それ以外のコマンドはREADMEに書いてあるものと一緒です。  
 
