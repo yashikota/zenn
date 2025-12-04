@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/yashikota/zenn#readme",
   "dependencies": {
-    "zenn-cli": "^0.2.1"
+    "zenn-cli": "^0.2.10"
   }
 }
